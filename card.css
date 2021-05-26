@@ -1,0 +1,216 @@
+.rect2{
+    width: 100%;
+    height: 100%;
+    margin-right: 37px;
+    margin-top: 47px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 100px;
+    
+}
+.card{
+    display: flex;
+    list-style: none;
+    position: relative;
+    width: 100%;
+    height: 300px;
+    justify-content: center;
+    perspective: 300px;
+    margin-left: -36px;
+}
+.card-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 0px;
+    width: 400px;
+    height: 450px;
+    border-radius: 12px;
+    box-shadow: 0px 2px 8px 0px rgba(124, 120, 120, 0.5);
+    position: absolute;
+    transition: all .3s ease-in;
+    background-color: #fff;
+    overflow: hidden;
+    flex-direction: column;
+}
+.card-item[data-pos="0"]{
+    z-index: 7;
+}
+.card-item[data-pos="1"]{
+    z-index: 6;
+    transform: translateX(30%) scale(0.9);
+}
+.card-item[data-pos="-1"]{
+    z-index: 6;
+    transform: translateX(-30%) scale(0.9);
+}
+.card-item[data-pos="2"]{
+    z-index: 5;
+    transform: translateX(60%) scale(0.8);
+}
+.card-item[data-pos="-2"]{
+    z-index: 5;
+    transform: translateX(-60%) scale(0.8);
+}
+.card-item[data-pos="3"]{
+    z-index: 4;
+    transform: translateX(90%) scale(0.7);
+}
+.card-item[data-pos="-3"]{
+    z-index: 4;
+    transform: translateX(-90%) scale(0.7);
+}
+
+.card img{
+    height: 255px;
+    width: 100%;
+    border-radius: 10px;
+    margin-top: -10px;
+    overflow: hidden;
+}
+.imgcard{
+    width: 100%;
+    height: 250px;
+   margin-left: 25%;
+   margin-right: 25%;
+   
+    
+}
+.info{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+    height: 200px;
+    width: 100%;
+   background-color: white;
+   border-radius: 10% 10% 0% 0%;
+   margin-top: -20px;
+   font-size: 45px;
+   color: black;
+   font-weight: 400;
+}
+.info button{
+    height: 45px;
+    width: 150px;
+    background-color: red;
+    color: white;
+    border-radius: 20px;
+    border-style: none;
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: -20px;
+}
+.info p{
+    margin-top: -20px;
+}
+
+@media only screen and (max-width: 1298px) {
+    .card-item{
+        width: 350px;
+        height: 450px;
+
+    }
+  }
+  @media only screen and (max-width: 932px) {
+    .card-item{
+        width: 300px;
+        height: 400px;
+    }
+    }
+    @media only screen and (max-width: 797px) {
+        .card-item{
+            width: 220px;
+            height: 320px;
+        }
+        .info button{
+            font-size: 16px;
+            height: 25px;
+            width: 100px;
+            margin-top: -40px;
+        }
+        .info p{
+            margin-top: -25px;
+            font-size: 25px;
+            padding: 35px;
+        }
+        
+  }
+  @media only screen and (max-width: 772px) {
+    .card{
+        width: 600px;
+    }
+
+  }
+  @media only screen and (max-width: 567px) {
+    .card-item{
+        width: 180px;
+        height: 280px;
+    }
+    .card img{
+        height: 180px;
+    }
+    .imgcard{
+        height: 177px;
+    }
+    .img1 img{
+        height: 180px;
+        width: 180px;
+        margin-bottom: 90px;
+        margin-top: 90px;      
+    }
+    
+    }
+    @media only screen and (max-width: 472px) {
+        .card-item{
+            width: 120px;
+            height: 220px;
+        }
+        .card img{
+            height: 120px;
+        }
+        .imgcard{
+            height: 157px;
+        }
+        .info{
+             height: 155px;
+             
+        }
+        .info p{
+            font-size: 20px;
+        }
+        .img1 img{
+            height: 200px;
+            width: 200px;
+            margin-bottom: 90px;
+            margin-top: 90px;      
+        }
+        
+        }
+        @media only screen and (max-width: 347px) {
+            .card-item{
+                width: 110px;
+                height: 190px;
+            }
+            .card img{
+                height: 110px;
+            }
+            .imgcard{
+                height: 150px;
+            }
+            .info{
+                 height: 140px;
+                 
+            }
+            .info p{
+                font-size: 20px;
+            }
+            .info button{
+                height: 30px;
+                width: 100px;
+                font-size: 15px;
+                
+            }
+            
+            }

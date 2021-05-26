@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="card.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Jolly+Lodger&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="headermenu.css">
+    <link rel="stylesheet" href="search.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="pizza.css">
+</head>
+
+<body>
+    <div id="headermenu">
+        <ul id="ulul">
+            <li id="limenu">
+                <div class="content">
+                    <h2>FoodDude</h2>
+                    <h2>FoodDude</h2>
+                </div>
+            </li>
+            <li id="limenu">Food Order</li>
+            <li id="limenu">Restaurants</li>
+            <li id="limenu">Contact us</li>
+            <li id="limenu">About us</li>
+            <li id="limenu">
+                <h2><button id="menubtn" onclick="boggle()">Menu</button></h2>
+            </li>
+            <li id="limenu"><button id="menucross" onclick="change()"><i class="fa fa-close"
+                        style="font-size:48px;"></i></button></li>
+        </ul>
+
+    </div>
+    <header>
+        <div class="content">
+            <h2>FoodDude</h2>
+            <h2>FoodDude</h2>
+        </div>
+        <nav>
+            <ul>
+                <li>Food Order</li>
+                <li>Restaurants</li>
+                <li>Contact us</li>
+                <li>About us</li>
+                <li font-size=39px><span class="material-icons">
+                        shopping_cart
+                    </span></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <section>
+        <div class="search">
+            <input type="text">
+            <button>Search</button>
+        </div>
+    </section>
+    <div class="header">
+        <div class="img1">
+            <img src="pizza.png" alt="">
+        </div>
+    </div>
+    <div class="rect1">
+        <button>Order Now</button>
+        <div class="pizzabox">
+            <div class="pizzacont">
+                <div class="pizzahead">
+                    <div class="line"></div>
+                    <div class="divp">
+                        <p>Delecious Pizzas</p>
+                    </div>
+
+                </div>
+                <div class="pizzaslider">
+                    <!-- Swiper -->
+                    <div class="swiper-container mySwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="image">
+                                    <img src="pizza1.jpeg" alt="">
+                                </div>
+                                <div class="pizzainfo">
+                                    <h2>Margherita</h2>
+                                    <h2>$2.50</h2>
+                                    <button><h3>Order Now</h3></button>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="image">
+                                    <img src="pizza2.jpeg" alt="">
+                                </div>
+                                <div class="pizzainfo">
+                                    <h2>Peppy Paneer</h2>
+                                    <h2>$2.50</h2>
+                                    <button><h3>Order Now</h3></button>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="image">
+                                    <img src="pizza3.jpeg" alt="">
+                                </div>
+                                <div class="pizzainfo">
+                                    <h2>Mexican Green Wave </h2>                                        
+                                    <h2>$2.50</h2>
+                                    <button><h3>Order Now</h3></button>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="image">
+                                    <img src="pizza4.jpeg" alt="">
+                                </div>
+                                <div class="pizzainfo">
+                                    <h2>Deluxe Veggie</h2>
+                                    <h2>$2.50</h2>
+                                    <button><h3>Order Now</h3></button>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="image">
+                                    <img src="pizza5.jpeg" alt="">
+                                </div>
+                                <div class="pizzainfo">
+                                    <h2>Veg Extravaganza</h2>                                       
+                                    <h2>$2.50</h2>
+                                    <button><h3>Order Now</h3></button>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="image">
+                                    <img src="pizza6.jpeg" alt="">
+                                </div>
+                                <div class="pizzainfo">
+                                    <h2>Farm House</h2>
+                                    <h2>$2.50</h2>
+                                    <button><h3>Order Now</h3></button>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="image">
+                                    <img src="pizza7.jpeg" alt="">
+                                </div>
+                                <div class="pizzainfo">
+                                    <h2>Indi Tandoori Paneer</h2>
+                                    <h2>$2.50</h2>
+                                    <button><h3>Order Now</h3></button>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="image">
+                                    <img src="pizza8.jpeg" alt="">
+                                </div>
+                                <div class="pizzainfo">
+                                    <h2>Fresh Veggie</h2>
+                                    <h2>$2.50</h2>
+                                    <button><h3>Order Now</h3></button>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="image">
+                                    <img src="pizza9.jpeg" alt="">
+                                </div>
+                                <div class="pizzainfo">
+                                    <h2>Veggie Paradise</h2>
+                                    <h2>$2.50</h2>
+                                    <button><h3>Order Now</h3></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="pizzabox">
+            <div class="pizzacont">
+                <div class="pizzahead">
+                    <div class="line"></div>
+                    <div class="divp">
+                        <p>Yummy Noodles</p>
+                    </div>
+
+                </div>
+                <div class="pizzaslider">
+                    <!-- Swiper -->
+                    <div class="swiper-container mySwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="image">
+                                    <img src="noodles1.jpeg" alt="">
+                                </div>
+                                <div class="pizzainfo">
+                                    <h2>Noodles</h2>                                       
+                                    <h2>$2.50</h2>
+                                    <button><h3>Order Now</h3></button>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="image">
+                                    <img src="noodles1.jpeg" alt="">
+                                </div>
+                                <div class="pizzainfo">
+                                    <h2>Noodles</h2>                                       
+                                    <h2>$2.50</h2>
+                                    <button><h3>Order Now</h3></button>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="image">
+                                    <img src="noodles1.jpeg" alt="">
+                                </div>
+                                <div class="pizzainfo">
+                                    <h2>Noodles</h2>                                       
+                                    <h2>$2.50</h2>
+                                    <button><h3>Order Now</h3></button>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="image">
+                                    <img src="noodles1.jpeg" alt="">
+                                </div>
+                                <div class="pizzainfo">
+                                    <h2>Noodles</h2>                                       
+                                    <h2>$2.50</h2>
+                                    <button><h3>Order Now</h3></button>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="image">
+                                    <img src="noodles1.jpeg" alt="">
+                                </div>
+                                <div class="pizzainfo">
+                                    <h2>Noodles</h2>                                       
+                                    <h2>$2.50</h2>
+                                    <button><h3>Order Now</h3></button>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="image">
+                                    <img src="noodles1.jpeg" alt="">
+                                </div>
+                                <div class="pizzainfo">
+                                    <h2>Noodles</h2>                                       
+                                    <h2>$2.50</h2>
+                                    <button><h3>Order Now</h3></button>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="image">
+                                    <img src="noodles1.jpeg" alt="">
+                                </div>
+                                <div class="pizzainfo">
+                                    <h2>Noodles</h2>                                       
+                                    <h2>$2.50</h2>
+                                    <button><h3>Order Now</h3></button>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="image">
+                                    <img src="noodles1.jpeg" alt="">
+                                </div>
+                                <div class="pizzainfo">
+                                    <h2>Noodles</h2>                                       
+                                    <h2>$2.50</h2>
+                                    <button><h3>Order Now</h3></button>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="image">
+                                    <img src="noodles1.jpeg" alt="">
+                                </div>
+                                <div class="pizzainfo">
+                                    <h2>Noodles</h2>                                       
+                                    <h2>$2.50</h2>
+                                    <button><h3>Order Now</h3></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="pizzabox">
+            <div class="pizzacont">
+                <div class="pizzahead">
+                    <div class="line"></div>
+                    <div class="divp">
+                        <p>Tasty Burgers</p>
+                    </div>
+
+                </div>
+                <div class="pizzaslider">
+                    <!-- Swiper -->
+                    <div class="swiper-container mySwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="image">
+                                    <img src="burger1.jpeg" alt="">
+                                </div>
+                                <div class="pizzainfo">
+                                    <h2>Burgers</h2>                                       
+                                    <h2>$2.50</h2>
+                                    <button><h3>Order Now</h3></button>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="image">
+                                    <img src="burger1.jpeg" alt="">
+                                </div>
+                                <div class="pizzainfo">
+                                    <h2>Burgers</h2>                                       
+                                    <h2>$2.50</h2>
+                                    <button><h3>Order Now</h3></button>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="image">
+                                    <img src="burger1.jpeg" alt="">
+                                </div>
+                                <div class="pizzainfo">
+                                    <h2>Burgers</h2>                                       
+                                    <h2>$2.50</h2>
+                                    <button><h3>Order Now</h3></button>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="image">
+                                    <img src="burger1.jpeg" alt="">
+                                </div>
+                                <div class="pizzainfo">
+                                    <h2>Burgers</h2>                                       
+                                    <h2>$2.50</h2>
+                                    <button><h3>Order Now</h3></button>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="image">
+                                    <img src="burger1.jpeg" alt="">
+                                </div>
+                                <div class="pizzainfo">
+                                    <h2>Burgers</h2>                                       
+                                    <h2>$2.50</h2>
+                                    <button><h3>Order Now</h3></button>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="image">
+                                    <img src="burger1.jpeg" alt="">
+                                </div>
+                                <div class="pizzainfo">
+                                    <h2>Burgers</h2>                                       
+                                    <h2>$2.50</h2>
+                                    <button><h3>Order Now</h3></button>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="image">
+                                    <img src="burger1.jpeg" alt="">
+                                </div>
+                                <div class="pizzainfo">
+                                    <h2>Burgers</h2>                                       
+                                    <h2>$2.50</h2>
+                                    <button><h3>Order Now</h3></button>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="image">
+                                    <img src="burger1.jpeg" alt="">
+                                </div>
+                                <div class="pizzainfo">
+                                    <h2>Burgers</h2>                                       
+                                    <h2>$2.50</h2>
+                                    <button><h3>Order Now</h3></button>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="image">
+                                    <img src="burger1.jpeg" alt="">
+                                </div>
+                                <div class="pizzainfo">
+                                    <h2>Burgers</h2>                                       
+                                    <h2>$2.50</h2>
+                                    <button><h3>Order Now</h3></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="line1"></div>
+        <p>Our Best Items</p>
+        <div class="line2"></div>
+        <div class="rect2">
+
+            <ul class="card">
+                <li class="card-item" data-pos="-3">
+                    <div class="imgcard">
+                        <img src="burger.jpeg" alt="" class="burger1">
+                    </div>
+                    <div class="info">
+                        <p>Burgers</p>
+                        <button>Order Now</button>
+                    </div>
+                </li>
+                <li class="card-item" data-pos="-2">
+                    <div class="imgcard">
+                        <img src="sandwitch.jpeg" alt="" class="burger1">
+                    </div>
+                    <div class="info">
+                        <p>Sandwitches</p>
+                        <button>Order Now</button>
+                    </div>
+                </li>
+                <li class="card-item" data-pos="-1">
+                    <div class="imgcard">
+                        <img src="noodles.jpeg" alt="" class="burger1">
+                    </div>
+                    <div class="info">
+                        <p>Noodles</p>
+                        <button>Order Now</button>
+                    </div>
+                </li>
+                <li class="card-item" data-pos="0">
+                    <div class="imgcard">
+                        <img src="momos.jpeg" alt="" class="burger1">
+                    </div>
+                    <div class="info">
+                        <p>Momos</p>
+                        <button>Order Now</button>
+                    </div>
+                </li>
+                <li class="card-item" data-pos="1">
+                    <div class="imgcard">
+                        <img src="samosa.jpeg" alt="" class="burger1">
+                    </div>
+                    <div class="info">
+                        <p>Samosa</p>
+                        <button>Order Now</button>
+                    </div>
+                </li>
+                <li class="card-item" data-pos="2">
+                    <div class="imgcard">
+                        <img src="dosa.jpeg" alt="" class="burger1">
+                    </div>
+                    <div class="info">
+                        <p>Dosa</p>
+                        <button>Order Now</button>
+                    </div>
+                </li>
+                <li class="card-item" data-pos="3">
+                    <div class="imgcard">
+                        <img src="pizza.jpeg" alt="" class="burger1">
+                    </div>
+                    <div class="info">
+                        <p>Pizza</p>
+                        <button>Order Now</button>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <footer>
+            <button class="footbtn"><a href="#">Go To Top</a> </button>
+        </footer>
+    </div>
+    <script src="card.js"></script>
+    <script src="slidermenu.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+        let Ssize = window.screen.availWidth;
+        console.log(Ssize);
+        
+        if (Ssize < 600) {
+            var swiper = new Swiper(".mySwiper", {
+           
+           slidesPerView: 1,
+           spaceBetween: 30,
+           slidesPerGroup: 1,
+           loop: true,
+           autoplay: {
+               delay: 2500,
+               disableOnInteraction: false,
+           },
+           loopFillGroupWithBlank: true,
+           pagination: {
+               el: ".swiper-pagination",
+               clickable: true,
+           },
+           navigation: {
+               nextEl: ".swiper-button-next",
+               prevEl: ".swiper-button-prev",
+           },
+       });
+
+        }
+        if(Ssize > 600){
+            
+            var swiper = new Swiper(".mySwiper", {
+           slidesPerView: 3,
+           spaceBetween: 30,
+           slidesPerGroup: 3,
+           loop: true,
+           
+           loopFillGroupWithBlank: true,
+           pagination: {
+               el: ".swiper-pagination",
+               clickable: true,
+           },
+           navigation: {
+               nextEl: ".swiper-button-next",
+               prevEl: ".swiper-button-prev",
+           },
+       });
+        }
+        
+
+
+    </script>
+</body>
+
+
+</html>
